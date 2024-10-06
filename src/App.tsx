@@ -3,6 +3,7 @@ import NavBar from "./components/Navbar.tsx";
 import ViteEx from "./components/ViteEx.tsx";
 import ButtonsShowcase from "./components/Buttons.tsx";
 import ToastsShowcase from "./components/Toasts.tsx";
+import ModalsDemo from "./components/ModalsDemo.tsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <ViteEx/>
         <ButtonsShowcase/>
         <ToastsShowcase/>
+        <ModalsDemo/>
     </>
   )
 }
