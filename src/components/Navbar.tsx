@@ -24,6 +24,13 @@ function NavBar() {
                                 Separated link
                             </NavDropdown.Item>
                         </NavDropdown>
+                        <NavDropdown title="Tutorials" id="menu-item-tutorials">
+                            <NavDropdown.Item href="#action/3.1">Forms</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2">Card</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3">Navbar</NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            <NavDropdown.Item href="#action/3.4">Components</NavDropdown.Item>
+                        </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
