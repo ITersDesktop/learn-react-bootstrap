@@ -5,6 +5,7 @@ import ButtonsShowcase from "./components/Buttons.tsx";
 import ToastsShowcase from "./components/Toasts.tsx";
 import ModalsDemo from "./components/ModalsDemo.tsx";
 import ModalPopup from "./components/ModalsDemo2.tsx";
+import Footer from "./components/Footer.tsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <ToastsShowcase/>
         <ModalsDemo/>
         <ModalPopup/>
+        <Footer/>
     </>
   )
 }

@@ -41,3 +41,14 @@
 .read-the-docs {
   color: #888;
 }
+
+.footer--pin {
+  /*https://www.geeksforgeeks.org/how-to-create-sticky-footer-in-reactjs/*/
+  background-color: #a1f3a1;
+  border-top: 2px solid red;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  color: white;
+  font-size: 25px;
+}
