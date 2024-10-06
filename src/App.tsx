@@ -4,6 +4,7 @@ import ViteEx from "./components/ViteEx.tsx";
 import ButtonsShowcase from "./components/Buttons.tsx";
 import ToastsShowcase from "./components/Toasts.tsx";
 import ModalsDemo from "./components/ModalsDemo.tsx";
+import ModalPopup from "./components/ModalsDemo2.tsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <ButtonsShowcase/>
         <ToastsShowcase/>
         <ModalsDemo/>
+        <ModalPopup/>
     </>
   )
 }
